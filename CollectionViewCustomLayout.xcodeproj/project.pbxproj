@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		4689CC512445E8810001075A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689CC502445E8810001075A /* AppDelegate.swift */; };
 		4689CC532445E8810001075A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689CC522445E8810001075A /* SceneDelegate.swift */; };
-		4689CC552445E8810001075A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689CC542445E8810001075A /* ViewController.swift */; };
+		4689CC552445E8810001075A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689CC542445E8810001075A /* DetailViewController.swift */; };
 		4689CC582445E8810001075A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4689CC562445E8810001075A /* Main.storyboard */; };
 		4689CC5A2445E8820001075A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4689CC592445E8820001075A /* Assets.xcassets */; };
 		4689CC5D2445E8820001075A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4689CC5B2445E8820001075A /* LaunchScreen.storyboard */; };
+		4689CC652445E8F10001075A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689CC642445E8F10001075A /* MasterViewController.swift */; };
+		4689CC672445E9720001075A /* Character_Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4689CC662445E9720001075A /* Character_Data.plist */; };
+		4689CC6A2445E9790001075A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689CC682445E9790001075A /* GradientView.swift */; };
+		4689CC6B2445E9790001075A /* CharactersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689CC692445E9790001075A /* CharactersCell.swift */; };
+		4689CC6D2445E9980001075A /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4689CC6C2445E9970001075A /* Characters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4689CC4D2445E8810001075A /* CollectionViewCustomLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewCustomLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4689CC502445E8810001075A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4689CC522445E8810001075A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4689CC542445E8810001075A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4689CC542445E8810001075A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4689CC572445E8810001075A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4689CC592445E8820001075A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4689CC5C2445E8820001075A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4689CC5E2445E8820001075A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4689CC642445E8F10001075A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		4689CC662445E9720001075A /* Character_Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Character_Data.plist; sourceTree = "<group>"; };
+		4689CC682445E9790001075A /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		4689CC692445E9790001075A /* CharactersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersCell.swift; sourceTree = "<group>"; };
+		4689CC6C2445E9970001075A /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				4689CC502445E8810001075A /* AppDelegate.swift */,
 				4689CC522445E8810001075A /* SceneDelegate.swift */,
-				4689CC542445E8810001075A /* ViewController.swift */,
+				4689CC642445E8F10001075A /* MasterViewController.swift */,
+				4689CC542445E8810001075A /* DetailViewController.swift */,
 				4689CC562445E8810001075A /* Main.storyboard */,
-				4689CC592445E8820001075A /* Assets.xcassets */,
 				4689CC5B2445E8820001075A /* LaunchScreen.storyboard */,
+				4689CC692445E9790001075A /* CharactersCell.swift */,
+				4689CC682445E9790001075A /* GradientView.swift */,
+				4689CC6C2445E9970001075A /* Characters.swift */,
 				4689CC5E2445E8820001075A /* Info.plist */,
+				4689CC662445E9720001075A /* Character_Data.plist */,
+				4689CC592445E8820001075A /* Assets.xcassets */,
 			);
 			path = CollectionViewCustomLayout;
 			sourceTree = "<group>";
@@ -125,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4689CC672445E9720001075A /* Character_Data.plist in Resources */,
 				4689CC5D2445E8820001075A /* LaunchScreen.storyboard in Resources */,
 				4689CC5A2445E8820001075A /* Assets.xcassets in Resources */,
 				4689CC582445E8810001075A /* Main.storyboard in Resources */,
@@ -138,7 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4689CC552445E8810001075A /* ViewController.swift in Sources */,
+				4689CC652445E8F10001075A /* MasterViewController.swift in Sources */,
+				4689CC6D2445E9980001075A /* Characters.swift in Sources */,
+				4689CC6B2445E9790001075A /* CharactersCell.swift in Sources */,
+				4689CC552445E8810001075A /* DetailViewController.swift in Sources */,
+				4689CC6A2445E9790001075A /* GradientView.swift in Sources */,
 				4689CC512445E8810001075A /* AppDelegate.swift in Sources */,
 				4689CC532445E8810001075A /* SceneDelegate.swift in Sources */,
 			);
